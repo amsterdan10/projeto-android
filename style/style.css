@@ -204,7 +204,11 @@ footer a:hover {
     color: var(--cor1);
 }
 
-
+@media (max-width: 600px) {
+    aside > ul {
+        columns: 1;
+    }
+}
 
 
 
